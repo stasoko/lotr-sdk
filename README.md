@@ -26,7 +26,7 @@ This SDK is open source and available in git at https://github.com/stasoko/lotr-
 
 A working example is available at https://github.com/stasoko/lotr-sdk/tree/main/example.  To run the example...
 1.  Access the lotr-sdk/example folder, either from the command line (ex. gitbash) or in an IDE
-2.  Run Maven compile './mvnw compile'
-3.  Run Maven exec './mvnw exec:java'
+2.  Run Maven compile `./mvnw compile`
+3.  Run Maven exec `./mvnw exec:java`
 
 Please contact stacey.sokoloff@gmail.com with any questions.
