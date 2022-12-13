@@ -21,5 +21,6 @@ Future improvements may include:
 - Better distinction between error cases and cases where there is no data
 - Improved, more modern testing, including Mockito
 - Link analysis diagrams - connections between characters
+- More in depth documentation and Javadoc
 
 
