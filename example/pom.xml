@@ -1,0 +1,49 @@
+    <project>
+      <modelVersion>4.0.0</modelVersion>
+      <groupId>io.github.stasoko</groupId>
+      <artifactId>lotr-sdk-example</artifactId>
+      <version>1.0</version>
+      <packaging>jar</packaging>
+
+      <name>Lord of the Rings SDK Example</name>
+      <description>Easy access to https://the-one-api.dev/</description>
+      <url>https://github.com/stasoko/lotr-sdk</url>
+
+      <licenses>
+        <license>
+          <name>Apache License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+          <distribution>repo</distribution>
+        </license>
+      </licenses>
+
+      <scm>
+        <url>https://github.com/stasoko/lotr-sdk</url>
+      </scm>
+
+        <properties>
+            <maven.compiler.target>11</maven.compiler.target>
+            <maven.compiler.source>11</maven.compiler.source>
+        </properties>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>1.2.1</version>
+                    <configuration>
+                        <mainClass>io.github.stasoko.lotr.example.LotrSdkExample</mainClass>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+
+        <dependencies>
+            <dependency>
+                <groupId>io.github.stasoko</groupId>
+                <artifactId>lotr-sdk</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+        </dependencies>
+
+    </project>
